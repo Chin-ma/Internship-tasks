@@ -1,0 +1,94 @@
+#radios #c-g {
+    top: 325px;
+}
+
+#radios #male {
+    position: absolute;
+    left: 9px;
+    top: 355px;
+}
+
+#radios #female {
+    position: absolute;
+    left: 9px;
+    top: 374px;
+}
+
+.rad1 {
+    position: absolute;
+    top: 352px;
+    left: 32px;
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+}
+
+.rad2 {
+    position: absolute;
+    top: 372px;
+    left: 32px;
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+}
+
+#checkbox #pl-k{
+    top: 400px;
+}
+
+#checkbox #lang1 {
+    position: absolute;
+    left: 9px;
+    top: 430px;
+}
+#checkbox #lang2 {
+    position: absolute;
+    left: 9px;
+    top: 448px;
+}
+#checkbox #lang3 {
+    position: absolute;
+    left: 9px;
+    top: 466px;
+}
+#checkbox #lang4 {
+    position: absolute;
+    left: 9px;
+    top: 484px;
+}
+#checkbox #lang5 {
+    position: absolute;
+    left: 9px;
+    top: 502px;
+}
+
+#lg1 {
+    /* position: absolute;
+    left: 32px; */
+    top: 425px;
+}
+#lg2 {
+    /* position: absolute;
+    left: 32px; */
+    top: 444px;
+}
+#lg3 {
+    /* position: absolute;
+    left: 32px; */
+    top: 462px;
+}
+#lg4 {
+    /* position: absolute;
+    left: 32px; */
+    top: 480px;
+}
+#lg5 {
+    /* position: absolute;
+    left: 32px; */
+    top: 498px;
+}
+
+.lg {
+    position: absolute;
+    left: 32px;
+    font-size: 17px;
+    font-family: 'Bree Serif', serif;
+}

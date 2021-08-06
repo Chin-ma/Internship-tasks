@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 975px;
+    width: 1920px;
+}
+
+.box {
+    background: linear-gradient(#A0522D, #FFF8DC);
+    position: absolute;
+    height: 600px;
+    width: 320px;
+    left: 804px;
+    top: 223px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+#details .field {
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    padding: 2px;
+    border-radius: 9px;
+}
+
+#details #user {
+    top: 29px;
+}
+
+#details #pass {
+    top: 90px;
+}
+
+#details #numb {
+    top: 150px;
+}
+
+#details #email {
+    top: 215px;
+}
+
+#details #luser {
+    top: 2px;
+}
+
+#details #lpass {
+    top: 63px;
+}
+
+#details #lnumb {
+    top: 123px;
+}
+
+#details #lemail {
+    top: 189px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    position: absolute;
+    left: 9px;
+    top: 258px;
+}
+
+#dropdown #game {
+    position: absolute;
+    left: 9px;
+    top: 290px;
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+#submit {
+    position: absolute;
+    top: 545px;
+    left: 125px;
+    
+}
+
+#submit button {
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: lightgreen;
+}
+
+#submit button:hover {
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;
+    border-radius: 5px;
+    /* padding: 2px; */
+    background-color: lightgray;
+}
+
+#eye {
+    position: absolute;
+    top: 97px;
+    left: 183px;
+}

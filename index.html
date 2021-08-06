@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <script src="https://use.fontawesome.com/b97cfec694.js"></script>
+    <link rel="stylesheet" href="Form.css">
+    <link rel="stylesheet" href="Form2.css">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="box">
+            <form action="Form.php" method="post">
+                <div id="details">
+                    <label for="user" id="luser" class="field">Username</label><br>
+                    <input type="text" name="username" id="user" class="field" placeholder="Enter Username"><br>
+                    <label for="pass" id="lpass" class="field">Password</label><br>
+                    <input type="password" name="password" id="pass" class="field" placeholder="Enter Password"><i class="fa fa-eye" id="eye" onclick="show('pass')"></i><br>
+                    <label for="numb" id="lnumb" class="field">Phone Number</label><br>
+                    <input type="number" name="phone" id="numb" class="field" placeholder="Enter Phone Number"><br>
+                    <label for="email" id="lemail" class="field">Email ID</label><br>
+                    <input type="email" name="email" id="email" class="field" placeholder="Enter Email"><br>
+                </div>
+                <div id="dropdown">
+                    <span class="heading">Choose Favorite Game</span><br>
+                    <select name="game" id="game">
+                        <option value="none">None</option><br>
+                        <option value="cricket">Cricket</option><br>
+                        <option value="football">Football</option><br>
+                        <option value="tennis">Tennis</option><br>
+                    </select>
+                </div>
+                <div id="radios">
+                    <span class="heading" id="c-g">Choose Gender</span><br>
+                    <input type="radio" name="action" id="male" value="Male"><label for="male" class="rad1">Male</label><br>
+                    <input type="radio" name="action" id="female" value="Female"><label for="female" class="rad2">Female</label><br>
+                </div>
+                <div id="checkbox">
+                    <span class="heading" id="pl-k">Programming Languages Known</span><br>
+                    <input type="checkbox" name="lang[]" id="lang1" value="Python"><label for="lang1" id="lg1" class="lg">Python</label><br>
+                    <input type="checkbox" name="lang[]" id="lang2" value="Java"><label for="lang2" id="lg2" class="lg">Java</label><br>
+                    <input type="checkbox" name="lang[]" id="lang3" value="Javascript"><label for="lang3" id="lg3" class="lg">Javascript</label><br>
+                    <input type="checkbox" name="lang[]" id="lang4" value="C++"><label for="lang4" id="lg4" class="lg">C++</label><br>
+                    <input type="checkbox" name="lang[]" id="lang5" value="C"><label for="lang5" id="lg5" class="lg">C</label><br>
+                </div>
+                <div class="sub-btn" id="submit" name="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function show(id) {
+            var x = document.getElementById(id)
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>
