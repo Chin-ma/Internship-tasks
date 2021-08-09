@@ -6,25 +6,36 @@
 }
 
 .bg {
-    background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
+    position: relative;
+}
+
+.bg:before {
+    /*background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");*/
+    background-image: url("back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     height: 975px;
-    width: 1920px;
+    /*width: 1920px;*/
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75
 }
 
 .box {
-    background: linear-gradient(#A0522D, #FFF8DC);
+    background: linear-gradient(#2c3e50, #bdc3c7);
     position: absolute;
     height: 600px;
     width: 320px;
     left: 804px;
     top: 223px;
-    opacity: 0.9;
     border-radius: 10px;
 }
+
 
 #details .field {
     font-family: 'Bree Serif', serif;
@@ -34,22 +45,28 @@
     top: 3px;
     padding: 2px;
     border-radius: 9px;
+    width: 250px;
+    color: #5cd2ff;
 }
 
 #details #user {
     top: 29px;
+    color: white;
 }
 
 #details #pass {
     top: 90px;
+    color: white;
 }
 
 #details #numb {
     top: 150px;
+    color: white;
 }
 
 #details #email {
     top: 215px;
+    color: white;
 }
 
 #details #luser {
@@ -75,6 +92,7 @@
     position: absolute;
     left: 9px;
     top: 258px;
+    color: #5cd2ff;
 }
 
 #dropdown #game {
@@ -112,5 +130,5 @@
 #eye {
     position: absolute;
     top: 97px;
-    left: 183px;
+    left: 240px;
 }
