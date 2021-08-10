@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
 
 .heading {
     font-size: 35px;
@@ -55,3 +56,53 @@
     margin-left: 239px;
     top: 36px;
 }
+
+.de-form {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    opacity: 0.9;
+    color: white;
+}
+
+.de-form1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    opacity: 0.9;
+    color: white;
+}
+
+.get-started {
+    position: absolute;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: #4d5365;
+    border-radius: 30px;
+    padding: 8px;
+    top: 650px;
+    left: 206px;
+    cursor: pointer;
+    transition: ease-out 0.2s;
+}
+
+.get-started:hover {
+    border-radius: 6px;
+}
+
+.get-started a {
+    color: white;
+    text-decoration: none;
+}
+
+/*.get-started a:hover {
+    color: black;
+}*/

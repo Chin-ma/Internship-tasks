@@ -4,13 +4,13 @@
 
 #radios #male {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 355px;
 }
 
 #radios #female {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 374px;
 }
 
@@ -36,27 +36,27 @@
 
 #checkbox #lang1 {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 430px;
 }
 #checkbox #lang2 {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 448px;
 }
 #checkbox #lang3 {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 466px;
 }
 #checkbox #lang4 {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 484px;
 }
 #checkbox #lang5 {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 502px;
 }
 

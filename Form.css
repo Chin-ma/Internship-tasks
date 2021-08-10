@@ -29,44 +29,49 @@
 .box {
     background: linear-gradient(#2c3e50, #bdc3c7);
     position: absolute;
-    height: 600px;
-    width: 320px;
+    width: 334px;
+    height: 631px;
     left: 804px;
     top: 223px;
     border-radius: 10px;
+    opacity: 0.9;
 }
 
 
 #details .field {
     font-family: 'Bree Serif', serif;
-    font-size: 17px;
+    font-size: 20px;
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 3px;
     padding: 2px;
     border-radius: 9px;
-    width: 250px;
+    width: 272px;
     color: #5cd2ff;
 }
 
 #details #user {
-    top: 29px;
+    top: 34px;
     color: white;
+    font-size: 15px;
 }
 
 #details #pass {
-    top: 90px;
+    top: 95px;
     color: white;
+    font-size: 15px;
 }
 
 #details #numb {
-    top: 150px;
+    top: 155px;
     color: white;
+    font-size: 15px;
 }
 
 #details #email {
-    top: 215px;
+    top: 220px;
     color: white;
+    font-size: 15px;
 }
 
 #details #luser {
@@ -90,14 +95,14 @@
     font-weight: bold;
     font-family: 'Bree Serif', serif;
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 258px;
     color: #5cd2ff;
 }
 
 #dropdown #game {
     position: absolute;
-    left: 9px;
+    left: 12px;
     top: 290px;
     font-family: 'Bree Serif', serif;
     font-size: 17px;
@@ -106,8 +111,8 @@
 
 #submit {
     position: absolute;
-    top: 545px;
-    left: 125px;
+    top: 567px;
+    left: 117px;
     
 }
 
@@ -116,7 +121,10 @@
     font-family: 'Bree Serif', serif;
     border-radius: 5px;
     padding: 5px;
-    background-color: lightgreen;
+    background-color: #04AA6D;
+    transition: ease-out 0.2s;
+    cursor: pointer;
+    color: white;
 }
 
 #submit button:hover {
@@ -125,10 +133,16 @@
     border-radius: 5px;
     /* padding: 2px; */
     background-color: lightgray;
+    color: black;
+}
+
+.btn-style {
+    display: block;
+    width: 100px;
 }
 
 #eye {
     position: absolute;
-    top: 97px;
-    left: 240px;
+    top: 100px;
+    left: 266px;
 }
