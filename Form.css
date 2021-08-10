@@ -52,25 +52,25 @@
 
 #details #user {
     top: 34px;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
 #details #pass {
     top: 95px;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
 #details #numb {
     top: 155px;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
 #details #email {
     top: 220px;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
