@@ -5,36 +5,43 @@
     padding: 0;
 }
 
-.bg {
-    position: relative;
-}
+/*.bg {
+    background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    top: 0;
+    right: 0;
+}*/
 
-.bg:before {
-    /*background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");*/
-    background-image: url("back.jpg");
-    background-size: cover;
+/*.bg:before {
+    background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
+}*/
+
+.background {
+    background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 950px;
     height: 975px;
-    /*width: 1920px;*/
-    content: "";
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75
+    object-fit: cover;
+    object-position: 100% 0;
 }
 
 .box {
-    background: linear-gradient(#2c3e50, #bdc3c7);
+    /*background: linear-gradient(#2c3e50, #bdc3c7);*/
     position: absolute;
     width: 334px;
     height: 631px;
-    left: 804px;
-    top: 223px;
+    left: 350px;
+    top: 190px;
     border-radius: 10px;
     opacity: 0.9;
+    box-shadow: 5px 10px 18px 10px #888888;
+    background-color: #90cf6b;
 }
 
 
@@ -47,7 +54,7 @@
     padding: 2px;
     border-radius: 9px;
     width: 272px;
-    color: #5cd2ff;
+    /*color: #5cd2ff;*/
 }
 
 #details #user {
@@ -97,7 +104,7 @@
     position: absolute;
     left: 12px;
     top: 258px;
-    color: #5cd2ff;
+    /*color: #5cd2ff;*/
 }
 
 #dropdown #game {
@@ -121,7 +128,7 @@
     font-family: 'Bree Serif', serif;
     border-radius: 5px;
     padding: 5px;
-    background-color: #04AA6D;
+    background-color: #041107;
     transition: ease-out 0.2s;
     cursor: pointer;
     color: white;

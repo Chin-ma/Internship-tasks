@@ -106,3 +106,23 @@
 /*.get-started a:hover {
     color: black;
 }*/
+
+.bg {
+    position: relative;
+}
+
+.bg:before {
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+    height: 975px;
+    /*width: 1920px;*/
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75
+}
