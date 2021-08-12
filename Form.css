@@ -5,19 +5,6 @@
     padding: 0;
 }
 
-/*.bg {
-    background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
-    position: absolute;
-    width: 300px;
-    height: 900px;
-    top: 0;
-    right: 0;
-}*/
-
-/*.bg:before {
-    background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
-}*/
-
 .background {
     background-image: url("josiah-ingels-X79v5N3O4yA-unsplash.jpg");
     background-position: center;
@@ -31,6 +18,12 @@
     object-position: 100% 0;
 }
 
+.bg {
+    background-color: #90cf6b;
+    width: 970px;
+    height: 975px;
+}
+
 .box {
     /*background: linear-gradient(#2c3e50, #bdc3c7);*/
     position: absolute;
@@ -40,7 +33,8 @@
     top: 190px;
     border-radius: 10px;
     opacity: 0.9;
-    box-shadow: 5px 10px 18px 10px #888888;
+    box-shadow: 20px 20px 60px #7ab05b,
+                -20px -20px 60px #a6ee7b;
     background-color: #90cf6b;
 }
 

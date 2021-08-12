@@ -2,49 +2,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
 
 .heading {
-    font-size: 35px;
-    font-family: 'Bree Serif', serif;
+    font-size: 70px;
+    font-family: 'Source Sans Pro', serif;
     position: absolute;
-    left: 15px;
+    left: 650px;
+    top: 50px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #90cf6b;
 }
 
 .details {
     font-size: 20px;
     font-family: 'Bree Serif', serif;
     position: absolute;
-    left: 15px;
-    top: 50px;
+    left: 700px;
+    top: 200px;
 }
 
 .selections {
     font-size: 15px;
     font-family: 'Bree Serif', serif;
     position: absolute;
-    left: 15px;
+    left: 700px;
 }
 
 #s1 {
-    top: 80px;
+    top: 230px;
 }
 
 #s2 {
-    top: 100px;
+    top: 250px;
 }
 
 #s3 {
-    top: 120px;
+    top: 270px;
 }
 
 #s4 {
-    top: 140px;
+    top: 290px;
 }
 
 .check {
     font-size: 15px;
     font-family: 'Bree Serif', serif;
     position: absolute;
-    left: 15px;
-    top: 170px;
+    left: 700px;
+    top: 320px;;
 }
 
 .check1 {
@@ -53,8 +59,8 @@
     /* justify-content: center; */
     position: relative;
     align-content: flex-end;
-    margin-left: 239px;
-    top: 36px;
+    margin-left: 927px;
+    top: 186px;
 }
 
 .de-form {
@@ -107,11 +113,11 @@
     color: black;
 }*/
 
-.bg {
+.bgg {
     position: relative;
 }
 
-.bg:before {
+.bgg:before {
     background-image: url("back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
